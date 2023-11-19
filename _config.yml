@@ -1,0 +1,54 @@
+# site settings
+title: Matthew Epland
+description: Portfolio Website of Matthew Epland
+taglong: Data Scientist
+tagshort: Data Scientist
+url: https://www.matthewepland.com
+baseurl: ""
+permalink: pretty
+repo: https://github.com/mepland/mepland.github.io
+
+# author settings
+author:
+  name: Matthew Epland
+  email:
+photo: /assets/jpg/matt_epland_cropped.jpg
+
+# social media links
+social:
+  github: mepland
+  linkedin: matthew-epland
+  orcid: 0000-0001-5340-7240
+
+# build settings
+exclude:
+  - LICENSE
+  - README.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate-v2
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+whitelist:
+  - jekyll-sitemap
+
+sass:
+  sass_dir: _sass
+  style: compressed
+  sourcemap: never
+
+feed:
+  path: atom.xml
+
+autopages:
+  enabled: false
+
+pagination:
+  enabled: true
+  per_page: 1
+  sort_reverse: true
+  permalink: /:num/
+  title: ":title &middot; Page :num"

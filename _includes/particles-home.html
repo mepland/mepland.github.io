@@ -1,0 +1,28 @@
+<div id="particles-js" class="fullscreen">
+  <div class="jumbotron text-center">
+    {% if site.photo %}
+    <img class="particles-photo" src="{{ site.photo }}" />
+    {% endif %}
+    <h1 class="particles-title">{{ site.title }}</h1>
+    <h1 class="particles-subtitle">{{ site.taglong }}</h1>
+    <div class="nowrap">
+      {% if site.social.linkedin %}
+      <a class="particles-icon" href="https://www.linkedin.com/in/{{ site.social.linkedin }}" target="_blank" rel="noopener noreferrer">{% include svg/linkedin.svg %}</a>
+      {% endif %}
+      {% if site.social.github %}
+      <a class="particles-icon" href="https://github.com/{{ site.social.github }}" target="_blank" rel="noopener noreferrer">{% include svg/github-outline.svg %}</a>
+      {% endif %}
+      {% if site.social.orcid %}
+      <a class="particles-icon" href="https://orcid.org/{{ site.social.orcid }}" target="_blank" rel="noopener noreferrer">{% include svg/orcid.svg %}</a>
+      {% endif %}
+      <a class="particles-icon" href="assets/resume-epland.pdf" target="_blank" rel="noopener noreferrer">{% include svg/cv-circled.svg %}</a>
+    </div>
+    <div class="header-links" style="margin-top: 1.25em; margin-bottom: 1em;">
+      <a class="particles-icon" href="#about" data-scroll="">About Me</a>
+      <a class="particles-icon" href="#projects" data-scroll="">Projects</a>
+    </div>
+  </div>
+  <div class="particles-scroll">
+    <a class="particles-icon" href="#scroll">{% include svg/nav-arrow-down.svg %}</a>
+  </div>
+</div>
