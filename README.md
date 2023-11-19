@@ -20,7 +20,11 @@ This repo includes a docker-compose file that allows you to quickly setup a cont
 
 You can run the container without docker-compose using the following command on Mac/Linux:
 ```bash
-docker run -p 4000:4000 -v $(pwd):/site bretfisher/jekyll-serve
+sudo docker run -p 4000:4000 -v $(pwd):/site bretfisher/jekyll-serve
+```
+which is also included in the `Makefile` as:
+```
+make local
 ```
 
 To start the container with docker-compose simply run:
