@@ -15,9 +15,71 @@ I enjoy investigating anomalous data and building new models!
 
 # Projects
 
-## Chance of Showers
-
+## Lake Hunt
 TODO
+
+<i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/mepland/lake_hunt" target="_blank" rel="noopener noreferrer">Repository</a>
+
+## Chance of Showers
+TODO
+
+<i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/mepland/chance_of_showers" target="_blank" rel="noopener noreferrer">Repository</a>
+
+**Methods:**
+time series analysis,
+
+**Software:**
+`python 3.11`,
+
+## ACIC Causality Challenge 2022
+TODO
+
+<i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/mepland/acic_causality_challenge_2022" target="_blank" rel="noopener noreferrer">Repository</a>
+
+## Mount Sinai Health Hackathon EKG Imaging Project
+TODO
+
+<i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/mepland/mount_sinai_health_hackathon_ekg_img" target="_blank" rel="noopener noreferrer">Repository</a>
+
+## A Search for Supersymmetry in Multi-b Jet Events with the ATLAS Detector
+
+<img align="right" width="350" src="assets/projects/dissertation/exclusion_plot_expected_thumbnail.png">
+
+<i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="assets/projects/dissertation/defense_public-epland.pdf" target="_blank" rel="noopener noreferrer">Defense Slides</a>
+<br>
+<i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="assets/projects/dissertation/dissertation-epland.pdf" target="_blank" rel="noopener noreferrer">Dissertation (PDF)</a>
+<br>
+<i class="fa fa-external-link-square" aria-hidden="true"></i> <a href="https://hdl.handle.net/10161/18738" target="_blank" rel="noopener noreferrer">Dissertation (Online)</a>
+<!---
+Also available at https://cdsweb.cern.ch/record/2632347
+-->
+
+**Description:**
+Ph.D. dissertation searching for supersymmetry (SUSY) in pair-produced gluinos
+at the large hadron collider's (LHC) ATLAS experiment.
+The search employed a parameterized boosted decision tree (BDT) to separate SUSY signal events from standard model backgrounds.
+New methods for optimal BDT parameter point selection and signal region creation
+were used to increase the search's sensitive area by ∼30%.
+
+**Methods:**
+BDT,
+hypothesis testing,
+statistical significance,
+hyperparameter optimization,
+Bayesian optimization,
+feature importance,
+feature selection,
+network analysis,
+Monte Carlo
+
+**Software:**
+`python 2.7`,
+`xgboost`,
+`scikit-optimize`,
+`networkx`,
+`matplotlib`,
+`pandas`,
+`ROOT`
 
 ## Exploring Interdisciplinary Research at Duke via Ph.D. Committees
 1st Place - 2018 Scholars@Duke Visualization Challenge
@@ -32,23 +94,87 @@ TODO
 <br>
 <i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/mepland/vis_challenge_2018" target="_blank" rel="noopener noreferrer">Repository</a>
 <br>
-<i class="fa fa-external-link-square" aria-hidden="true"></i> <a href="https://researchblog.duke.edu/2018/02/06/duke-scholars-bridge-disciplines-to-tackle-big-questions/" target="_blank" rel="noopener noreferrer">Duke Scholars Bridge Disciplines to Tackle Big Questions</a>
+<i class="fa fa-external-link-square" aria-hidden="true"></i> <a href="https://researchblog.duke.edu/2018/02/06/duke-scholars-bridge-disciplines-to-tackle-big-questions" target="_blank" rel="noopener noreferrer">Duke Scholars Bridge Disciplines to Tackle Big Questions</a>
 
 **Description:**
 By combining Duke Ph.D. committee membership data with the faculty appointments directory,
 connections between academic organizations were found
-and used to construct an undirected, weighted network (or graph).
+and used to construct an undirected, weighted network, i.e. graph.
 From this network communities of closely linked organizations were created via the Louvain method.
 Additionally, the level of interdisciplinary activity in each organization was measured
 by comparing the relative weights of their external and self connections.
 Analysis won 1st place in the competition.
 
 **Methods:**
-Network analysis,
+network analysis,
 Louvain method
 
 **Software:**
+`python 2.7`,
 `networkx`,
 `pandas`
+
+## ATLAS TRT Particle ID Machine Learning R&D Studies
+
+<img align="right" width="350" src="assets/projects/trt_ml_pid_project/roc_eprob_nn_thumbnail.png">
+
+<i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="assets/projects/trt_ml_pid_project/trt_ml_pid_project.pdf" target="_blank" rel="noopener noreferrer">Slides</a>
+<br>
+<i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/dukeatlas/trtmachana/tree/master/mepland_notebooks" target="_blank" rel="noopener noreferrer">Repository</a>
+
+**Description:**
+R&D studies of particle identification in the ATLAS transition radiation tracker (TRT)
+where conducted utilizing machine learning techniques,
+with the goal of separating electron tracks from muons.
+Developed with fellow Duke graduate students Doug Davis and Sourav Sen,
+and continued by Davis and others within the TRT group.
+Support vector machines (SVM) and boosted decision trees (BDT)
+from the scikit-learn library were tested,
+as well as neural networks (NN) constructed with Keras and TensorFlow.
+
+**Methods:**
+SVM,
+BDT,
+NN,
+k-fold cross-validation
+
+**Software:**
+`python 2.7`,
+`scikit-learn`,
+`keras`,
+`tensorflow`
+
+## Numerical Methods and the Dampened, Driven Pendulum
+
+<img align="right" width="350" src="assets/projects/pendulum/res_sweep_phi_thumbnail.png">
+
+<i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="assets/projects/pendulum/numerical_methods_and_the_dampened_driven_pendulum.pdf" target="_blank" rel="noopener noreferrer">Paper</a>
+<br>
+<i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/mepland/PHYS_566_Computational_HW/tree/main/hw4" target="_blank" rel="noopener noreferrer">Repository</a>
+
+**Description:**
+A computational study of the dampened, driven pendulum using
+the Euler-Cromer and Rung-Kutta numerical methods
+to investigate resonance, nonlinear behavior, and chaos.
+Numerical simulations compared to theory where possible.
+
+**Methods:**
+Euler-Cromer,
+Rung-Kutta,
+ordinary differential equations (ODE),
+chaos and Lyapunov exponents
+
+**Software:**
+`python 2.7`,
+`numpy`,
+`matplotlib`
+
+# Notes
+TODO
+
+<i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/mepland/data_science_notes" target="_blank" rel="noopener noreferrer">Repository</a>
+
+# Publications
+TODO
 
 {% include archive.html %}
