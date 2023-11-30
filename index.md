@@ -5,7 +5,7 @@ title: Home
 
 # About
 
-I am a freelance Data Scientist working with top life science companies to improve patient journeys.
+I am a freelance Data Scientist working with top 25 pharmaceutical companies to improve patient journeys.
 In my spare time I contribute to the
 <a href="https://github.com/csinva/imodels" target="_blank" rel="noopener noreferrer">`imodels`</a>
 and
@@ -16,33 +16,85 @@ I enjoy investigating anomalous data and building new models!
 # Projects
 
 ## Lake Hunt
-TODO
-
 <i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/mepland/lake_hunt" target="_blank" rel="noopener noreferrer">Repository</a>
 
+**Description:**
+WIP
+
+**Methods:**
+Google Maps API
+
+**Software:**
+`python 3.11`
+
 ## Chance of Showers
-TODO
+<!-- TODO test online, revert to still image(s) if needed -->
+<video align="right" width="350" src="https://github.com/mepland/chance_of_showers/assets/4729931/f3b94d00-fa40-4b0b-8b95-1105d11e7acd"></video>
 
 <i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/mepland/chance_of_showers" target="_blank" rel="noopener noreferrer">Repository</a>
 
+**Description:**
+WIP
+
 **Methods:**
 time series analysis,
+predictive modeling,
+hyperparameter optimization,
+Bayesian optimization,
+data acquisition (DAQ),
+cron job "heartbeat" monitoring,
+web dashboard,
+python linting,
 
 **Software:**
 `python 3.11`,
+`darts`,
+`torch`,
+`prophet`,
+`plotly`,
+`polars`,
+`flask`,
 
 ## ACIC Causality Challenge 2022
-TODO
+Inverse Probability Weighting Difference-in-Differences (IPWDID)
+
+<img align="right" width="350" src="assets/projects/acic_ipwdid_2022/acic_2022_logo.png">
 
 <i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/mepland/acic_causality_challenge_2022" target="_blank" rel="noopener noreferrer">Repository</a>
 
-## Mount Sinai Health Hackathon EKG Imaging Project
+**Description:**
 TODO
+
+**Methods:**
+TODO
+
+**Software:**
+TODO
+
+## Mount Sinai Health Hackathon EKG Imaging Project
+<img align="right" width="350" src="assets/projects/mount_sinai_health_hackathon_ekg_img/myocardial_infarction_wf_0-0_thumbnail.png">
 
 <i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/mepland/mount_sinai_health_hackathon_ekg_img" target="_blank" rel="noopener noreferrer">Repository</a>
 
-## A Search for Supersymmetry in Multi-b Jet Events with the ATLAS Detector
+**Description:**
+Electrocardiograms (EKG) play a pivotal role in modern medicine,
+but are commonly interpreted with proprietary and machine specific algorithms.
+We developed an image recognition model which can be used
+to read standard EKG strip printouts across machines.
+An austere variation of the MobileNetV3 convolutional neural network (CNN) model
+was trained on publicly available labeled waveform data
+to classify 12-lead EKGs between seven clinically important diagnostic classes.
 
+**Methods:**
+CNN,
+image classification,
+multi-class classification
+
+**Software:**
+`python 2.7`,
+`torch`,
+
+## A Search for Supersymmetry in Multi-b Jet Events with the ATLAS Detector
 <img align="right" width="350" src="assets/projects/dissertation/exclusion_plot_expected_thumbnail.png">
 
 <i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="assets/projects/dissertation/defense_public-epland.pdf" target="_blank" rel="noopener noreferrer">Defense Slides</a>
@@ -77,8 +129,6 @@ Monte Carlo
 `xgboost`,
 `scikit-optimize`,
 `networkx`,
-`matplotlib`,
-`pandas`,
 `ROOT`
 
 ## Exploring Interdisciplinary Research at Duke via Ph.D. Committees
@@ -115,7 +165,6 @@ Louvain method
 `pandas`
 
 ## ATLAS TRT Particle ID Machine Learning R&D Studies
-
 <img align="right" width="350" src="assets/projects/trt_ml_pid_project/roc_eprob_nn_thumbnail.png">
 
 <i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="assets/projects/trt_ml_pid_project/trt_ml_pid_project.pdf" target="_blank" rel="noopener noreferrer">Slides</a>
@@ -145,7 +194,6 @@ k-fold cross-validation
 `tensorflow`
 
 ## Numerical Methods and the Dampened, Driven Pendulum
-
 <img align="right" width="350" src="assets/projects/pendulum/res_sweep_phi_thumbnail.png">
 
 <i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="assets/projects/pendulum/numerical_methods_and_the_dampened_driven_pendulum.pdf" target="_blank" rel="noopener noreferrer">Paper</a>
