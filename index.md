@@ -15,7 +15,7 @@ I enjoy investigating anomalous data and building new models!
 
 # Projects
 
-## Lake Hunt
+<!-- ## Lake Hunt
 <i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/mepland/lake_hunt" target="_blank" rel="noopener noreferrer">Repository</a>
 
 **Description:**
@@ -26,15 +26,15 @@ Google Maps API
 
 **Software:**
 `python 3.11`
+-->
 
 ## Chance of Showers
-<!-- TODO test online, revert to still image(s) if needed -->
-<video align="right" width="350" src="https://github.com/mepland/chance_of_showers/assets/4729931/f3b94d00-fa40-4b0b-8b95-1105d11e7acd"></video>
+<img align="right" width="300" src="https://github.com/mepland/chance_of_showers/raw/main/media/17_screenshot_top.jpg">
 
 <i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/mepland/chance_of_showers" target="_blank" rel="noopener noreferrer">Repository</a>
 
 **Description:**
-WIP
+TODO
 
 **Methods:**
 time series analysis,
@@ -44,7 +44,7 @@ Bayesian optimization,
 data acquisition (DAQ),
 cron job "heartbeat" monitoring,
 web dashboard,
-python linting,
+python linting
 
 **Software:**
 `python 3.11`,
@@ -53,14 +53,18 @@ python linting,
 `prophet`,
 `plotly`,
 `polars`,
-`flask`,
+`flask`
 
 ## ACIC Causality Challenge 2022
 Inverse Probability Weighting Difference-in-Differences (IPWDID)
 
-<img align="right" width="350" src="assets/projects/acic_ipwdid_2022/acic_2022_logo.png">
+<img align="right" width="250" src="assets/projects/acic_ipwdid_2022/acic_2022_logo.png">
 
 <i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/mepland/acic_causality_challenge_2022" target="_blank" rel="noopener noreferrer">Repository</a>
+<br>
+<i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="https://doi.org/10.1353/obs.2023.0027" target="_blank" rel="noopener noreferrer">Paper</a>
+<br>
+<i class="fa fa-external-link-square" aria-hidden="true"></i> <a href="https://acic2022.mathematica.org" target="_blank" rel="noopener noreferrer">Challenge Site</a>
 
 **Description:**
 TODO
@@ -75,6 +79,10 @@ TODO
 <img align="right" width="350" src="assets/projects/mount_sinai_health_hackathon_ekg_img/myocardial_infarction_wf_0-0_thumbnail.png">
 
 <i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/mepland/mount_sinai_health_hackathon_ekg_img" target="_blank" rel="noopener noreferrer">Repository</a>
+<br>
+<i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="https://doi.org/10.1016/j.cpcardiol.2023.101744" target="_blank" rel="noopener noreferrer">Paper</a>
+<br>
+<i class="fa fa-external-link-square" aria-hidden="true"></i> <a href="https://doi.org/10.5281/zenodo.7972397" target="_blank" rel="noopener noreferrer">Paper Data</a>
 
 **Description:**
 Electrocardiograms (EKG) play a pivotal role in modern medicine,
@@ -88,11 +96,13 @@ to classify 12-lead EKGs between seven clinically important diagnostic classes.
 **Methods:**
 CNN,
 image classification,
-multi-class classification
+multi-class classification,
+TODO
 
 **Software:**
 `python 2.7`,
 `torch`,
+TODO
 
 ## A Search for Supersymmetry in Multi-b Jet Events with the ATLAS Detector
 <img align="right" width="350" src="assets/projects/dissertation/exclusion_plot_expected_thumbnail.png">
@@ -136,13 +146,13 @@ Monte Carlo
 
 <img align="right" width="350" src="assets/projects/vis_challenge_2018/interdisciplinary_graph_thumbnail.png">
 
+<i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/mepland/vis_challenge_2018" target="_blank" rel="noopener noreferrer">Repository</a>
+<br>
 <i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="assets/projects/vis_challenge_2018/vis_challenge_2018_poster-matthew_epland.pdf" target="_blank" rel="noopener noreferrer">Poster</a>
 <br>
 <i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="assets/projects/vis_challenge_2018/vis_challenge_2018_paper-matthew_epland.pdf" target="_blank" rel="noopener noreferrer">Paper</a>
 <br>
 <i class="fa fa-area-chart" aria-hidden="true"></i> <a href="https://blocks.roadtolarissa.com/mepland/raw/598590f30f49b17dc76ea4ed74695252" target="_blank" rel="noopener noreferrer">Interactive Network</a>
-<br>
-<i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/mepland/vis_challenge_2018" target="_blank" rel="noopener noreferrer">Repository</a>
 <br>
 <i class="fa fa-external-link-square" aria-hidden="true"></i> <a href="https://researchblog.duke.edu/2018/02/06/duke-scholars-bridge-disciplines-to-tackle-big-questions" target="_blank" rel="noopener noreferrer">Duke Scholars Bridge Disciplines to Tackle Big Questions</a>
 
@@ -167,9 +177,9 @@ Louvain method
 ## ATLAS TRT Particle ID Machine Learning R&D Studies
 <img align="right" width="350" src="assets/projects/trt_ml_pid_project/roc_eprob_nn_thumbnail.png">
 
-<i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="assets/projects/trt_ml_pid_project/trt_ml_pid_project.pdf" target="_blank" rel="noopener noreferrer">Slides</a>
-<br>
 <i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/dukeatlas/trtmachana/tree/master/mepland_notebooks" target="_blank" rel="noopener noreferrer">Repository</a>
+<br>
+<i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="assets/projects/trt_ml_pid_project/trt_ml_pid_project.pdf" target="_blank" rel="noopener noreferrer">Slides</a>
 
 **Description:**
 R&D studies of particle identification in the ATLAS transition radiation tracker (TRT)
@@ -196,9 +206,9 @@ k-fold cross-validation
 ## Numerical Methods and the Dampened, Driven Pendulum
 <img align="right" width="350" src="assets/projects/pendulum/res_sweep_phi_thumbnail.png">
 
-<i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="assets/projects/pendulum/numerical_methods_and_the_dampened_driven_pendulum.pdf" target="_blank" rel="noopener noreferrer">Paper</a>
-<br>
 <i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/mepland/PHYS_566_Computational_HW/tree/main/hw4" target="_blank" rel="noopener noreferrer">Repository</a>
+<br>
+<i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="assets/projects/pendulum/numerical_methods_and_the_dampened_driven_pendulum.pdf" target="_blank" rel="noopener noreferrer">Paper</a>
 
 **Description:**
 A computational study of the dampened, driven pendulum using
