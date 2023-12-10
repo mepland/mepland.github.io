@@ -7,6 +7,7 @@ url: https://www.matthewepland.com
 baseurl: ""
 permalink: pretty
 repo: https://github.com/mepland/mepland.github.io
+thumbnail_url: https://github.com/mepland/mepland.github.io/raw/main/assets/jpg/matt_epland_cropped.jpg
 
 # author settings
 author:
