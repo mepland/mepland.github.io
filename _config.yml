@@ -1,8 +1,8 @@
 # site settings
 title: Matthew Epland
-description: Portfolio Website of Matthew Epland
-taglong: Data Scientist
-tagshort: Data Scientist
+description: Freelance Data Scientist working with top 25 pharmaceutical companies to improve patient journeys.
+tag: Data Scientist
+og_type: Personal Page
 url: https://www.matthewepland.com
 baseurl: ""
 permalink: pretty
