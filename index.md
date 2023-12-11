@@ -37,14 +37,14 @@ Google Maps API
 TODO
 
 **Methods:**
-time series analysis,
-predictive modeling,
-hyperparameter optimization,
-Bayesian optimization,
-data acquisition (DAQ),
-cron job "heartbeat" monitoring,
-web dashboard,
-python linting
+Time Series Analysis,
+Predictive Modeling,
+Hyperparameter Optimization,
+Bayesian Optimization,
+Data Acquisition (DAQ),
+Cron Job "Heartbeat" Monitoring,
+Web Dashboard,
+Python Linting
 
 **Software:**
 `python 3.11`,
@@ -67,13 +67,32 @@ Inverse Probability Weighting Difference-in-Differences (IPWDID)
 <i class="fa fa-external-link-square" aria-hidden="true"></i> <a href="https://acic2022.mathematica.org" target="_blank" rel="noopener noreferrer">Challenge Site</a>
 
 **Description:**
-TODO
+In this American Causal Inference Conference (ACIC) 2022 challenge submission,
+the canonical difference-in-differences (DID) estimator
+has been used with inverse probability weighting (IPW)
+and strong simplifying assumptions
+to produce a benchmark model of the
+sample average treatment effect on the treated (SATT).
+Despite the restrictive assumptions and simple model,
+satisfactory performance in both point estimate and confidence intervals was observed,
+ranking in the top half of the competition.
 
 **Methods:**
-TODO
+Causal Inference,
+Inverse Probability Weighting (IPW),
+Difference-in-Differences (DID),
+Generalized Linear Models (GLM),
+Bootstrapping,
+Monte Carlo,
+One Hot Encoding
 
 **Software:**
-TODO
+`R`,
+`speedglm`,
+`boot`,
+`python 3.9`
+`pyspark`,
+Snowflake
 
 ## Mount Sinai Health Hackathon EKG Imaging Project
 <img align="right" width="350" src="assets/projects/mount_sinai_health_hackathon_ekg_img/myocardial_infarction_wf_0-0_thumbnail.png">
@@ -94,9 +113,9 @@ was trained on publicly available labeled waveform data
 to classify 12-lead EKGs between seven clinically important diagnostic classes.
 
 **Methods:**
-CNN,
-image classification,
-multi-class classification,
+Convolutional Neural Network (CNN),
+Image Classification,
+Multi-class Classification,
 TODO
 
 **Software:**
@@ -124,14 +143,14 @@ New methods for optimal BDT parameter point selection and signal region creation
 were used to increase the search's sensitive area by ∼30%.
 
 **Methods:**
-BDT,
-hypothesis testing,
-statistical significance,
-hyperparameter optimization,
-Bayesian optimization,
-feature importance,
-feature selection,
-network analysis,
+Boosted Decision Tree (BDT),
+Hypothesis Testing,
+Statistical Significance,
+Hyperparameter Optimization,
+Bayesian Optimization,
+Feature Importance,
+Feature Selection,
+Network Analysis,
 Monte Carlo
 
 **Software:**
@@ -166,8 +185,8 @@ by comparing the relative weights of their external and self connections.
 Analysis won 1st place in the competition.
 
 **Methods:**
-network analysis,
-Louvain method
+Network Analysis,
+Louvain Method
 
 **Software:**
 `python 2.7`,
@@ -192,10 +211,10 @@ from the scikit-learn library were tested,
 as well as neural networks (NN) constructed with Keras and TensorFlow.
 
 **Methods:**
-SVM,
-BDT,
-NN,
-k-fold cross-validation
+Support Vector Machines (SVM),
+Boosted Decision Trees (BDT),
+Neural Networks (NN),
+k-fold Cross-Validation
 
 **Software:**
 `python 2.7`,
@@ -219,8 +238,8 @@ Numerical simulations compared to theory where possible.
 **Methods:**
 Euler-Cromer,
 Rung-Kutta,
-ordinary differential equations (ODE),
-chaos and Lyapunov exponents
+Ordinary Differential Equations (ODE),
+Chaos and Lyapunov Exponents
 
 **Software:**
 `python 2.7`,
