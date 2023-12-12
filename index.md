@@ -64,6 +64,8 @@ Inverse Probability Weighting Difference-in-Differences (IPWDID)
 <br>
 <i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="https://doi.org/10.1353/obs.2023.0027" target="_blank" rel="noopener noreferrer">Paper</a>
 <br>
+<i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="https://docs.google.com/presentation/d/1IzwBvmbTapf6lReX_EWvhtPTmiuobDrBx7z89cKOvhI" target="_blank" rel="noopener noreferrer">Slides</a>
+<br>
 <i class="fa fa-external-link-square" aria-hidden="true"></i> <a href="https://acic2022.mathematica.org" target="_blank" rel="noopener noreferrer">Challenge Site</a>
 
 **Description:**
