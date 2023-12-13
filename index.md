@@ -31,10 +31,17 @@ Google Maps API
 ## Chance of Showers
 <img align="right" width="300" src="https://github.com/mepland/chance_of_showers/raw/main/media/17_screenshot_top.jpg">
 
+<nobr>
 <i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/mepland/chance_of_showers" target="_blank" rel="noopener noreferrer">Repository</a>
+</nobr>
+
+<br>
 
 **Description:**
-TODO
+This project provides live water pressure measurements via a web dashboard running on a Raspberry Pi,
+logs the data, and creates time series forecasts of future water pressure,
+all to lower the odds of being stranded halfway through a shower with unreliable water pressure!
+Work in progress.
 
 **Methods:**
 Time Series Analysis,
@@ -55,13 +62,18 @@ Python Linting
 `polars`,
 `flask`
 
+<br>
+
 ## ACIC Causality Challenge 2022
 Inverse Probability Weighting Difference-in-Differences (IPWDID)
 
+<!--
 <img align="right" width="250" src="assets/projects/acic_ipwdid_2022/acic_2022_logo.png">
+-->
 
+<nobr>
 <i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/mepland/acic_causality_challenge_2022" target="_blank" rel="noopener noreferrer">Repository</a>
-<br>
+</nobr>
 <i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="https://doi.org/10.1353/obs.2023.0027" target="_blank" rel="noopener noreferrer">Paper</a>
 <br>
 <i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="https://docs.google.com/presentation/d/1IzwBvmbTapf6lReX_EWvhtPTmiuobDrBx7z89cKOvhI" target="_blank" rel="noopener noreferrer">Slides</a>
@@ -92,15 +104,18 @@ One Hot Encoding
 `R`,
 `speedglm`,
 `boot`,
-`python 3.9`
+`python 3.9`,
 `pyspark`,
 Snowflake
+
+<br>
 
 ## Mount Sinai Health Hackathon EKG Imaging Project
 <img align="right" width="350" src="assets/projects/mount_sinai_health_hackathon_ekg_img/myocardial_infarction_wf_0-0_thumbnail.png">
 
+<nobr>
 <i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/mepland/mount_sinai_health_hackathon_ekg_img" target="_blank" rel="noopener noreferrer">Repository</a>
-<br>
+</nobr>
 <i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="https://doi.org/10.1016/j.cpcardiol.2023.101744" target="_blank" rel="noopener noreferrer">Paper</a>
 <br>
 <i class="fa fa-external-link-square" aria-hidden="true"></i> <a href="https://doi.org/10.5281/zenodo.7972397" target="_blank" rel="noopener noreferrer">Paper Data</a>
@@ -117,19 +132,19 @@ to classify 12-lead EKGs between seven clinically important diagnostic classes.
 **Methods:**
 Convolutional Neural Network (CNN),
 Image Classification,
-Multi-class Classification,
-TODO
+Multi-class Classification
 
 **Software:**
 `python 2.7`,
 `torch`,
-TODO
+`matplotlib`
 
 ## A Search for Supersymmetry in Multi-b Jet Events with the ATLAS Detector
 <img align="right" width="350" src="assets/projects/dissertation/exclusion_plot_expected_thumbnail.png">
 
+<nobr>
 <i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="assets/projects/dissertation/defense_public-epland.pdf" target="_blank" rel="noopener noreferrer">Defense Slides</a>
-<br>
+</nobr>
 <i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="assets/projects/dissertation/dissertation-epland.pdf" target="_blank" rel="noopener noreferrer">Dissertation (PDF)</a>
 <br>
 <i class="fa fa-external-link-square" aria-hidden="true"></i> <a href="https://hdl.handle.net/10161/18738" target="_blank" rel="noopener noreferrer">Dissertation (Online)</a>
@@ -167,8 +182,9 @@ Monte Carlo
 
 <img align="right" width="350" src="assets/projects/vis_challenge_2018/interdisciplinary_graph_thumbnail.png">
 
+<nobr>
 <i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/mepland/vis_challenge_2018" target="_blank" rel="noopener noreferrer">Repository</a>
-<br>
+</nobr>
 <i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="assets/projects/vis_challenge_2018/vis_challenge_2018_poster-matthew_epland.pdf" target="_blank" rel="noopener noreferrer">Poster</a>
 <br>
 <i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="assets/projects/vis_challenge_2018/vis_challenge_2018_paper-matthew_epland.pdf" target="_blank" rel="noopener noreferrer">Paper</a>
@@ -198,8 +214,9 @@ Louvain Method
 ## ATLAS TRT Particle ID Machine Learning R&D Studies
 <img align="right" width="350" src="assets/projects/trt_ml_pid_project/roc_eprob_nn_thumbnail.png">
 
+<nobr>
 <i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/dukeatlas/trtmachana/tree/master/mepland_notebooks" target="_blank" rel="noopener noreferrer">Repository</a>
-<br>
+</nobr>
 <i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="assets/projects/trt_ml_pid_project/trt_ml_pid_project.pdf" target="_blank" rel="noopener noreferrer">Slides</a>
 
 **Description:**
@@ -227,8 +244,9 @@ k-fold Cross-Validation
 ## Numerical Methods and the Dampened, Driven Pendulum
 <img align="right" width="350" src="assets/projects/pendulum/res_sweep_phi_thumbnail.png">
 
+<nobr>
 <i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/mepland/PHYS_566_Computational_HW/tree/main/hw4" target="_blank" rel="noopener noreferrer">Repository</a>
-<br>
+</nobr>
 <i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="assets/projects/pendulum/numerical_methods_and_the_dampened_driven_pendulum.pdf" target="_blank" rel="noopener noreferrer">Paper</a>
 
 **Description:**
@@ -249,9 +267,12 @@ Chaos and Lyapunov Exponents
 `matplotlib`
 
 # Notes
-TODO
-
+<nobr>
 <i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/mepland/data_science_notes" target="_blank" rel="noopener noreferrer">Repository</a>
+</nobr>
+
+<br>
+TODO
 
 # Publications
 TODO
