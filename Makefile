@@ -11,4 +11,4 @@ pre-commit-update:
 	pre-commit autoupdate
 
 markdownlint:
-	markdownlint --ignore LICENSE.md --dot --fix .
+	markdownlint --config .dev_config/.markdownlint.yaml --ignore LICENSE.md --dot --fix .
