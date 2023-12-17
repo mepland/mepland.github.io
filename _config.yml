@@ -32,9 +32,6 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-sitemap
 
-whitelist:
-  - jekyll-sitemap
-
 sass:
   sass_dir: _sass
   style: compressed
