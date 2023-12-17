@@ -17,7 +17,9 @@ I enjoy investigating anomalous data and building new models!
 # Projects
 
 <!-- ## Lake Hunt
-<i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/mepland/lake_hunt" target="_blank" rel="noopener noreferrer">Repository</a>
+<i class="fa fa-github-square" aria-hidden="true"></i> <a
+href="https://github.com/mepland/lake_hunt"
+target="_blank" rel="noopener noreferrer">Repository</a>
 
 **Description:**
 WIP
@@ -31,10 +33,14 @@ Google Maps API
 
 ## Chance of Showers
 
-<img align="right" width="300" src="https://github.com/mepland/chance_of_showers/raw/main/media/screenshot_top.jpg" alt="Chance of Showers Screenshot">
+<img align="right" width="300"
+src="https://github.com/mepland/chance_of_showers/raw/main/media/screenshot_top.jpg"
+alt="Chance of Showers Screenshot">
 
 <nobr>
-<i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/mepland/chance_of_showers" target="_blank" rel="noopener noreferrer">Repository</a>
+<i class="fa fa-github-square" aria-hidden="true"></i> <a
+href="https://github.com/mepland/chance_of_showers"
+target="_blank" rel="noopener noreferrer">Repository</a>
 </nobr>
 
 <br>
@@ -71,17 +77,27 @@ Python Linting
 Inverse Probability Weighting Difference-in-Differences (IPWDID)
 
 <!--
-<img align="right" width="250" src="assets/projects/acic_ipwdid_2022/acic_2022_logo.png">
+<img align="right" width="250"
+src="assets/projects/acic_ipwdid_2022/acic_2022_logo.png"
+alt="ACIC 2022 Logo">
 -->
 
 <nobr>
-<i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/mepland/acic_causality_challenge_2022" target="_blank" rel="noopener noreferrer">Repository</a>
+<i class="fa fa-github-square" aria-hidden="true"></i> <a
+href="https://github.com/mepland/acic_causality_challenge_2022"
+target="_blank" rel="noopener noreferrer">Repository</a>
 </nobr>
-<i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="https://doi.org/10.1353/obs.2023.0027" target="_blank" rel="noopener noreferrer">Paper</a>
+<i class="fa fa-file-text-o" aria-hidden="true"></i> <a
+href="https://doi.org/10.1353/obs.2023.0027"
+target="_blank" rel="noopener noreferrer">Paper</a>
 <br>
-<i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="https://docs.google.com/presentation/d/1IzwBvmbTapf6lReX_EWvhtPTmiuobDrBx7z89cKOvhI" target="_blank" rel="noopener noreferrer">Slides</a>
+<i class="fa fa-file-text-o" aria-hidden="true"></i> <a
+href="https://docs.google.com/presentation/d/1IzwBvmbTapf6lReX_EWvhtPTmiuobDrBx7z89cKOvhI"
+target="_blank" rel="noopener noreferrer">Slides</a>
 <br>
-<i class="fa fa-external-link-square" aria-hidden="true"></i> <a href="https://acic2022.mathematica.org" target="_blank" rel="noopener noreferrer">Challenge Site</a>
+<i class="fa fa-external-link-square" aria-hidden="true"></i> <a
+href="https://acic2022.mathematica.org"
+target="_blank" rel="noopener noreferrer">Challenge Site</a>
 
 **Description:**
 In this American Causal Inference Conference (ACIC) 2022 challenge submission,
@@ -115,14 +131,22 @@ Snowflake
 
 ## Mount Sinai Health Hackathon EKG Imaging Project
 
-<img align="right" width="350" src="assets/projects/mount_sinai_health_hackathon_ekg_img/myocardial_infarction_wf_0-0_thumbnail.png" alt="EKG for MI">
+<img align="right" width="350"
+src="assets/projects/mount_sinai_health_hackathon_ekg_img/myocardial_infarction_wf_0-0_thumbnail.png"
+alt="EKG for MI">
 
 <nobr>
-<i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/mepland/mount_sinai_health_hackathon_ekg_img" target="_blank" rel="noopener noreferrer">Repository</a>
+<i class="fa fa-github-square" aria-hidden="true"></i> <a
+href="https://github.com/mepland/mount_sinai_health_hackathon_ekg_img"
+target="_blank" rel="noopener noreferrer">Repository</a>
 </nobr>
-<i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="https://doi.org/10.1016/j.cpcardiol.2023.101744" target="_blank" rel="noopener noreferrer">Paper</a>
+<i class="fa fa-file-text-o" aria-hidden="true"></i> <a
+href="https://doi.org/10.1016/j.cpcardiol.2023.101744"
+target="_blank" rel="noopener noreferrer">Paper</a>
 <br>
-<i class="fa fa-external-link-square" aria-hidden="true"></i> <a href="https://doi.org/10.5281/zenodo.7972397" target="_blank" rel="noopener noreferrer">Paper Data</a>
+<i class="fa fa-external-link-square" aria-hidden="true"></i> <a
+href="https://doi.org/10.5281/zenodo.7972397"
+target="_blank" rel="noopener noreferrer">Paper Data</a>
 
 **Description:**
 Electrocardiograms (EKG) play a pivotal role in modern medicine,
@@ -145,14 +169,22 @@ Multi-class Classification
 
 ## A Search for Supersymmetry in Multi-b Jet Events with the ATLAS Detector
 
-<img align="right" width="350" src="assets/projects/dissertation/exclusion_plot_expected_thumbnail.png" alt="Expected Exclusion Plot">
+<img align="right" width="350"
+src="assets/projects/dissertation/exclusion_plot_expected_thumbnail.png"
+alt="Expected Exclusion Plot">
 
 <nobr>
-<i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="assets/projects/dissertation/defense_public-epland.pdf" target="_blank" rel="noopener noreferrer">Defense Slides</a>
+<i class="fa fa-file-text-o" aria-hidden="true"></i> <a
+href="assets/projects/dissertation/defense_public-epland.pdf"
+target="_blank" rel="noopener noreferrer">Defense Slides</a>
 </nobr>
-<i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="assets/projects/dissertation/dissertation-epland.pdf" target="_blank" rel="noopener noreferrer">Dissertation (PDF)</a>
+<i class="fa fa-file-text-o" aria-hidden="true"></i> <a
+href="assets/projects/dissertation/dissertation-epland.pdf"
+target="_blank" rel="noopener noreferrer">Dissertation (PDF)</a>
 <br>
-<i class="fa fa-external-link-square" aria-hidden="true"></i> <a href="https://hdl.handle.net/10161/18738" target="_blank" rel="noopener noreferrer">Dissertation (Online)</a>
+<i class="fa fa-external-link-square" aria-hidden="true"></i> <a
+href="https://hdl.handle.net/10161/18738"
+target="_blank" rel="noopener noreferrer">Dissertation (Online)</a>
 <!---
 Also available at https://cdsweb.cern.ch/record/2632347
 -->
@@ -160,7 +192,8 @@ Also available at https://cdsweb.cern.ch/record/2632347
 **Description:**
 Ph.D. dissertation searching for supersymmetry (SUSY) in pair-produced gluinos
 at the large hadron collider's (LHC) ATLAS experiment.
-The search employed a parameterized boosted decision tree (BDT) to separate SUSY signal events from standard model backgrounds.
+The search employed a parameterized boosted decision tree (BDT)
+to separate SUSY signal events from standard model backgrounds.
 New methods for optimal BDT parameter point selection and signal region creation
 were used to increase the search's sensitive area by ∼30%.
 
@@ -186,18 +219,30 @@ Monte Carlo
 
 1st Place - 2018 Scholars@Duke Visualization Challenge
 
-<img align="right" width="350" src="assets/projects/vis_challenge_2018/interdisciplinary_graph_thumbnail.png" alt="Interdisciplinary Graph">
+<img align="right" width="350"
+src="assets/projects/vis_challenge_2018/interdisciplinary_graph_thumbnail.png"
+alt="Interdisciplinary Graph">
 
 <nobr>
-<i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/mepland/vis_challenge_2018" target="_blank" rel="noopener noreferrer">Repository</a>
+<i class="fa fa-github-square" aria-hidden="true"></i> <a
+href="https://github.com/mepland/vis_challenge_2018"
+target="_blank" rel="noopener noreferrer">Repository</a>
 </nobr>
-<i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="assets/projects/vis_challenge_2018/vis_challenge_2018_poster-matthew_epland.pdf" target="_blank" rel="noopener noreferrer">Poster</a>
+<i class="fa fa-file-text-o" aria-hidden="true"></i> <a
+href="assets/projects/vis_challenge_2018/vis_challenge_2018_poster-matthew_epland.pdf"
+target="_blank" rel="noopener noreferrer">Poster</a>
 <br>
-<i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="assets/projects/vis_challenge_2018/vis_challenge_2018_paper-matthew_epland.pdf" target="_blank" rel="noopener noreferrer">Paper</a>
+<i class="fa fa-file-text-o" aria-hidden="true"></i> <a
+href="assets/projects/vis_challenge_2018/vis_challenge_2018_paper-matthew_epland.pdf"
+target="_blank" rel="noopener noreferrer">Paper</a>
 <br>
-<i class="fa fa-area-chart" aria-hidden="true"></i> <a href="https://blocks.roadtolarissa.com/mepland/raw/598590f30f49b17dc76ea4ed74695252" target="_blank" rel="noopener noreferrer">Interactive Network</a>
+<i class="fa fa-area-chart" aria-hidden="true"></i> <a
+href="https://blocks.roadtolarissa.com/mepland/raw/598590f30f49b17dc76ea4ed74695252"
+target="_blank" rel="noopener noreferrer">Interactive Network</a>
 <br>
-<i class="fa fa-external-link-square" aria-hidden="true"></i> <a href="https://researchblog.duke.edu/2018/02/06/duke-scholars-bridge-disciplines-to-tackle-big-questions" target="_blank" rel="noopener noreferrer">Duke Scholars Bridge Disciplines to Tackle Big Questions</a>
+<i class="fa fa-external-link-square" aria-hidden="true"></i> <a
+href="https://researchblog.duke.edu/2018/02/06/duke-scholars-bridge-disciplines-to-tackle-big-questions"
+target="_blank" rel="noopener noreferrer">Duke Scholars Bridge Disciplines to Tackle Big Questions</a>
 
 **Description:**
 By combining Duke Ph.D. committee membership data with the faculty appointments directory,
@@ -219,12 +264,18 @@ Louvain Method
 
 ## ATLAS TRT Particle ID Machine Learning R&D Studies
 
-<img align="right" width="350" src="assets/projects/trt_ml_pid_project/roc_eprob_nn_thumbnail.png" alt="ROC Curve">
+<img align="right" width="350"
+src="assets/projects/trt_ml_pid_project/roc_eprob_nn_thumbnail.png"
+alt="ROC Curve">
 
 <nobr>
-<i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/dukeatlas/trtmachana/tree/main/mepland_notebooks" target="_blank" rel="noopener noreferrer">Repository</a>
+<i class="fa fa-github-square" aria-hidden="true"></i> <a
+href="https://github.com/dukeatlas/trtmachana/tree/main/mepland_notebooks"
+target="_blank" rel="noopener noreferrer">Repository</a>
 </nobr>
-<i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="assets/projects/trt_ml_pid_project/trt_ml_pid_project.pdf" target="_blank" rel="noopener noreferrer">Slides</a>
+<i class="fa fa-file-text-o" aria-hidden="true"></i> <a
+href="assets/projects/trt_ml_pid_project/trt_ml_pid_project.pdf"
+target="_blank" rel="noopener noreferrer">Slides</a>
 
 **Description:**
 R&D studies of particle identification in the ATLAS transition radiation tracker (TRT)
@@ -250,12 +301,18 @@ k-fold Cross-Validation
 
 ## Numerical Methods and the Dampened, Driven Pendulum
 
-<img align="right" width="350" src="assets/projects/pendulum/res_sweep_phi_thumbnail.png" alt="Resonance Sweep">
+<img align="right" width="350"
+src="assets/projects/pendulum/res_sweep_phi_thumbnail.png"
+alt="Resonance Sweep">
 
 <nobr>
-<i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/mepland/PHYS_566_Computational_HW/tree/main/hw4" target="_blank" rel="noopener noreferrer">Repository</a>
+<i class="fa fa-github-square" aria-hidden="true"></i> <a
+href="https://github.com/mepland/PHYS_566_Computational_HW/tree/main/hw4"
+target="_blank" rel="noopener noreferrer">Repository</a>
 </nobr>
-<i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="assets/projects/pendulum/numerical_methods_and_the_dampened_driven_pendulum.pdf" target="_blank" rel="noopener noreferrer">Paper</a>
+<i class="fa fa-file-text-o" aria-hidden="true"></i> <a
+href="assets/projects/pendulum/numerical_methods_and_the_dampened_driven_pendulum.pdf"
+target="_blank" rel="noopener noreferrer">Paper</a>
 
 **Description:**
 A computational study of the dampened, driven pendulum using
@@ -277,7 +334,9 @@ Chaos and Lyapunov Exponents
 # Notes
 
 <nobr>
-<i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/mepland/data_science_notes" target="_blank" rel="noopener noreferrer">Repository</a>
+<i class="fa fa-github-square" aria-hidden="true"></i> <a
+href="https://github.com/mepland/data_science_notes"
+target="_blank" rel="noopener noreferrer">Repository</a>
 </nobr>
 
 <br>
