@@ -2,6 +2,7 @@
 layout: home
 title: Home
 ---
+<!-- markdownlint-disable MD033 MD003 MD025 -->
 
 # About
 
@@ -29,7 +30,8 @@ Google Maps API
 -->
 
 ## Chance of Showers
-<img align="right" width="300" src="https://github.com/mepland/chance_of_showers/raw/main/media/17_screenshot_top.jpg">
+
+<img align="right" width="300" src="https://github.com/mepland/chance_of_showers/raw/main/media/screenshot_top.jpg" alt="Chance of Showers Screenshot">
 
 <nobr>
 <i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/mepland/chance_of_showers" target="_blank" rel="noopener noreferrer">Repository</a>
@@ -65,6 +67,7 @@ Python Linting
 <br>
 
 ## ACIC Causality Challenge 2022
+
 Inverse Probability Weighting Difference-in-Differences (IPWDID)
 
 <!--
@@ -111,7 +114,8 @@ Snowflake
 <br>
 
 ## Mount Sinai Health Hackathon EKG Imaging Project
-<img align="right" width="350" src="assets/projects/mount_sinai_health_hackathon_ekg_img/myocardial_infarction_wf_0-0_thumbnail.png">
+
+<img align="right" width="350" src="assets/projects/mount_sinai_health_hackathon_ekg_img/myocardial_infarction_wf_0-0_thumbnail.png" alt="EKG for MI">
 
 <nobr>
 <i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/mepland/mount_sinai_health_hackathon_ekg_img" target="_blank" rel="noopener noreferrer">Repository</a>
@@ -140,7 +144,8 @@ Multi-class Classification
 `matplotlib`
 
 ## A Search for Supersymmetry in Multi-b Jet Events with the ATLAS Detector
-<img align="right" width="350" src="assets/projects/dissertation/exclusion_plot_expected_thumbnail.png">
+
+<img align="right" width="350" src="assets/projects/dissertation/exclusion_plot_expected_thumbnail.png" alt="Expected Exclusion Plot">
 
 <nobr>
 <i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="assets/projects/dissertation/defense_public-epland.pdf" target="_blank" rel="noopener noreferrer">Defense Slides</a>
@@ -178,9 +183,10 @@ Monte Carlo
 `ROOT`
 
 ## Exploring Interdisciplinary Research at Duke via Ph.D. Committees
+
 1st Place - 2018 Scholars@Duke Visualization Challenge
 
-<img align="right" width="350" src="assets/projects/vis_challenge_2018/interdisciplinary_graph_thumbnail.png">
+<img align="right" width="350" src="assets/projects/vis_challenge_2018/interdisciplinary_graph_thumbnail.png" alt="Interdisciplinary Graph">
 
 <nobr>
 <i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/mepland/vis_challenge_2018" target="_blank" rel="noopener noreferrer">Repository</a>
@@ -212,7 +218,8 @@ Louvain Method
 `pandas`
 
 ## ATLAS TRT Particle ID Machine Learning R&D Studies
-<img align="right" width="350" src="assets/projects/trt_ml_pid_project/roc_eprob_nn_thumbnail.png">
+
+<img align="right" width="350" src="assets/projects/trt_ml_pid_project/roc_eprob_nn_thumbnail.png" alt="ROC Curve">
 
 <nobr>
 <i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/dukeatlas/trtmachana/tree/main/mepland_notebooks" target="_blank" rel="noopener noreferrer">Repository</a>
@@ -242,7 +249,8 @@ k-fold Cross-Validation
 `tensorflow`
 
 ## Numerical Methods and the Dampened, Driven Pendulum
-<img align="right" width="350" src="assets/projects/pendulum/res_sweep_phi_thumbnail.png">
+
+<img align="right" width="350" src="assets/projects/pendulum/res_sweep_phi_thumbnail.png" alt="Resonance Sweep">
 
 <nobr>
 <i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/mepland/PHYS_566_Computational_HW/tree/main/hw4" target="_blank" rel="noopener noreferrer">Repository</a>
@@ -267,6 +275,7 @@ Chaos and Lyapunov Exponents
 `matplotlib`
 
 # Notes
+
 <nobr>
 <i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/mepland/data_science_notes" target="_blank" rel="noopener noreferrer">Repository</a>
 </nobr>
@@ -275,6 +284,7 @@ Chaos and Lyapunov Exponents
 TODO
 
 # Publications
+
 TODO
 
 {% include archive.html %}

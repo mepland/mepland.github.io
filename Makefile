@@ -9,3 +9,6 @@ pre-commit-this-commit:
 
 pre-commit-update:
 	pre-commit autoupdate
+
+markdownlint:
+	markdownlint --ignore LICENSE.md --dot --fix .
