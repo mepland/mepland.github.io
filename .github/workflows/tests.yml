@@ -29,6 +29,7 @@ jobs:
         with:
           node-version: ${{ matrix.node_version }}
           check-latest: true
+          cache: 'npm'
 
       - name: Install Dependencies
         run: sudo npm install standard --global
