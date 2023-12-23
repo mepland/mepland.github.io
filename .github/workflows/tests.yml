@@ -46,9 +46,6 @@ jobs:
 
       # No blocklint github action available
 
-      - name: standard
-        run: standard
-
       - name: markdownlint-cli
         uses: nosborn/github-action-markdown-cli@v3.3.0
         with:
@@ -56,3 +53,6 @@ jobs:
           dot: true
           config_file: .dev_config/.markdownlint.yaml
           ignore_files: LICENSE.md
+
+      - name: standard
+        run: standard
