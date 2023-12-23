@@ -1,0 +1,56 @@
+name: tests
+
+on:  # yamllint disable-line rule:truthy
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+  workflow_dispatch:
+    inputs:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node_version: [20, "lts/*"]
+
+    steps:
+      - name: Check out source repository
+        uses: actions/checkout@v3
+
+      - name: Install Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node_version }}
+          check-latest: true
+
+      - name: Install Dependencies
+        run: sudo npm install standard --global
+
+      - name: detect-secrets
+        uses: secret-scanner/action@0.0.2
+
+      - name: yamllint
+        uses: karancode/yamllint-github-action@master
+        with:
+          yamllint_strict: true
+          yamllint_config_filepath: .dev_config/.yamllint.yaml
+
+      # No blocklint github action available
+
+      - name: standard
+        run: standard
+
+      - name: markdownlint-cli
+        uses: nosborn/github-action-markdown-cli@v3.3.0
+        with:
+          files: .
+          dot: true
+          config_file: .dev_config/.markdownlint.yaml
+          ignore_files: LICENSE.md
