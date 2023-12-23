@@ -35,6 +35,8 @@ jobs:
 
       - name: detect-secrets
         uses: secret-scanner/action@0.0.2
+        with:
+          baseline: .dev_config/.secrets.baseline
 
       - name: yamllint
         uses: karancode/yamllint-github-action@master  # blocklint: pragma
