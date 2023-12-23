@@ -15,3 +15,14 @@ markdownlint:
 
 standard:
 	standard --fix
+
+# detect-secrets ~ pragma
+# yamllint ~ yamllint
+# blocklint ~ blocklint: pragma
+# markdownlint ~ <!-- markdownlint-disable -->
+# standard ~ eslint
+find_noqa_comments:
+	@grep -rIn 'yamllint' $(shell git ls-files '*.yaml')
+	@grep -rIn 'pragma\|blocklint:' $(shell git ls-files '*')
+	@grep -rIn 'markdownlint-' $(shell git ls-files '*.md')
+	@grep -rIn 'eslint' $(shell git ls-files '*.js')
