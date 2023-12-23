@@ -10,13 +10,22 @@ pre-commit-this-commit:
 pre-commit-update:
 	pre-commit autoupdate
 
+detect-secrets:
+	pre-commit run detect-secrets --all-files # pragma: allowlist secret
+
+yamllint:
+	pre-commit run yamllint --all-files
+
+bklint:
+	pre-commit run blocklint --all-files
+
 markdownlint:
 	markdownlint --config .dev_config/.markdownlint.yaml --ignore LICENSE.md --dot --fix .
 
 standard:
 	standard --fix
 
-# detect-secrets ~ pragma
+# detect-secrets ~ pragma: allowlist
 # yamllint ~ yamllint
 # blocklint ~ blocklint: pragma
 # markdownlint ~ <!-- markdownlint-disable -->
