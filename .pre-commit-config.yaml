@@ -29,6 +29,12 @@ repos:
       - id: markdownlint
         args: ['--config', '.dev_config/.markdownlint.yaml', '--ignore', 'LICENSE.md', '--dot']
 
+  # standard
+  - repo: https://github.com/standard/standard
+    rev: v17.1.0
+    hooks:
+      - id: standard
+
   # pre-commit-hooks
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: 'v4.5.0'
