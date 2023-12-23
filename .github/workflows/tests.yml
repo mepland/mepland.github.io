@@ -37,7 +37,7 @@ jobs:
         uses: secret-scanner/action@0.0.2
 
       - name: yamllint
-        uses: karancode/yamllint-github-action@master
+        uses: karancode/yamllint-github-action@master  # blocklint: pragma
         with:
           yamllint_strict: true
           yamllint_config_filepath: .dev_config/.yamllint.yaml
