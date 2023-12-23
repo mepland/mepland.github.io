@@ -2,6 +2,8 @@
 
 Adapted from [`cvless`](https://github.com/piazzai/cvless).
 
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 ## Usage
 
 Configuration primarily occurs in four files.
@@ -43,14 +45,29 @@ You can run the container without docker-compose using the following command on 
 sudo docker run -p 4000:4000 -v $(pwd):/site bretfisher/jekyll-serve
 ```
 
-which is also included in the `Makefile` as:
-
-```bash
-make local
-```
-
 To start the container with docker-compose simply run:
 
 ```bash
 docker-compose up
+```
+
+### Using the Makefile
+A [`Makefile`](Makefile) is provided for convenience,
+allowing you to run the docker container with `make local`
+as well run CI and linting tools,
+e.g. `make markdownlint`, `make pre-commit`.
+
+#### Installing `standard`
+To avoid setting up a `package.json` file,
+install `standard` globally with:
+
+```bash
+sudo npm install standard --global
+```
+
+#### Installing pre-commit
+You can also install [`pre-commit`](https://pre-commit.com) globally with:
+
+```bash
+pip install pre-commit
 ```
