@@ -57,6 +57,8 @@ jobs:
       - name: standard
         run: standard
 
+      - name: Build
+        uses: actions/jekyll-build-pages@v1
+
       - name: html5validator
-        run: make html5validator
-        # run: html5validator --config .dev_config/.html5validator.yaml
+        run: html5validator --config .dev_config/.html5validator.yaml
