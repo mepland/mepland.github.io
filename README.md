@@ -2,8 +2,8 @@
 
 Adapted from [`cvless`](https://github.com/piazzai/cvless).
 
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-[![Code Style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat)](https://standardjs.com)
+[![Code Style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)](https://github.com/prettier/prettier)
 
 ## Usage
 
@@ -63,9 +63,9 @@ sudo usermod -aG docker ${USER}
 
 ### Using the Makefile
 A [`Makefile`](Makefile) is provided for convenience,
-allowing you to run the docker container with `make local`,
+allowing you to run the docker container with `make serve-local`,
 which serves the page to a local IP address,
-or `make gen-local` which just builds the `_site` dir,
+or `make generate-local` which just builds the `_site` directory,
 as well run CI and linting tools,
 e.g. `make markdownlint`, `make pre-commit`.
 
