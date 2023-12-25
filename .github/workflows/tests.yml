@@ -31,7 +31,7 @@ jobs:
           check-latest: true
 
       - name: Install Dependencies
-        run: sudo npm install standard --global
+        run: sudo npm install standard --global & pip install html5validator
 
       - name: detect-secrets
         uses: secret-scanner/action@0.0.2
@@ -56,3 +56,7 @@ jobs:
 
       - name: standard
         run: standard
+
+      - name: html5validator
+        run: make html5validator
+        # run: html5validator --config .dev_config/.html5validator.yaml
