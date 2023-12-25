@@ -33,7 +33,7 @@ html5validator:
 	html5validator --config .dev_config/.html5validator.yaml
 
 prettier:
-	prettier --ignore-path .dev_config/.prettierignore --ignore-path .gitignore --no-config --print-width 100 --write .
+	prettier --ignore-path .dev_config/.prettierignore --ignore-path .gitignore --no-config --print-width 100 --single-attribute-per-line --write .
 
 # detect-secrets ~ pragma: allowlist
 # yamllint ~ yamllint
