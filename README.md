@@ -68,12 +68,12 @@ or `make gen-local` which just builds the `_site` dir,
 as well run CI and linting tools,
 e.g. `make markdownlint`, `make pre-commit`.
 
-#### Installing `standard`
+#### Installing `standard` and `prettier`
 To avoid setting up a `package.json` file,
-install `standard` globally with:
+install `standard` and `prettier` globally with:
 
 ```bash
-sudo npm install standard --global
+sudo npm install --global standard prettier
 ```
 
 #### Installing `pre-commit` and `html5validator`
