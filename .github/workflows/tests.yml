@@ -65,13 +65,6 @@ jobs:
         with:
           config: .dev_config/.html5validator.yaml
 
-      # - name: prettier
-      #   id: prettier
-      #   uses: rutajdash/prettier-cli-action@v1.0.0
-      #   with:
-      #     ignore_path: .dev_config/.prettierignore
-      #     config_path: .dev_config/.prettierrc.yaml
-
       - name: prettier
         id: prettier
         run: prettier --ignore-path .dev_config/.prettierignore --ignore-path .gitignore --config .dev_config/.prettierrc.yaml --check .  # yamllint disable-line rule:line-length
