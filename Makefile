@@ -2,7 +2,7 @@ local:
 	docker run -p 4000:4000 -v $(shell pwd):/site bretfisher/jekyll-serve
 
 gen-local:
-	docker run -v $(shell pwd):/site -it --entrypoint /bin/sh bretfisher/jekyll -c "bundle install --retry 5 --jobs 20 && bundle exec jekyll build"
+	docker run -v $(shell pwd):/site -it --entrypoint /bin/sh bretfisher/jekyll -c "bundle install --retry 1 --jobs 20 && bundle exec jekyll build"
 
 pre-commit:
 	pre-commit run --all-files
@@ -29,7 +29,7 @@ standard:
 	standard --fix
 
 html5validator:
-	$(MAKE) gen-local
+	if [ ! -d "./_site" ]; then $(MAKE) gen-local; fi
 	html5validator --config .dev_config/.html5validator.yaml
 
 # detect-secrets ~ pragma: allowlist

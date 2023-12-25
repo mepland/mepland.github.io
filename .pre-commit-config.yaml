@@ -35,15 +35,8 @@ repos:
     hooks:
       - id: standard
 
-  # html5validator
-  - repo: local
-    hooks:
-      - id: html5validator
-        name: html5validator
-        entry: make html5validator
-        # entry: make html5validator --config .dev_config/.html5validator.yaml
-        language: system
-        types: [python]
+  # html5validator does not work with pre-commit since it checks modified files iteratively.
+  # Use `make html5validator` for local testing instead.
 
   # pre-commit-hooks
   - repo: https://github.com/pre-commit/pre-commit-hooks
