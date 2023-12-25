@@ -10,4 +10,4 @@ ignore_re:
 blacklist:  # blocklint: pragma
   - 'bootstrap.min.css'
   - 'styles.min.css'
-  - 'styles.css'  # only needed for github actions build
+  - 'style.css'  # only needed for github actions build
