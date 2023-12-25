@@ -31,7 +31,7 @@ jobs:
           check-latest: true
 
       - name: Install Dependencies
-        run: sudo npm install standard --global  # TODO delte & pip install html5validator
+        run: sudo npm install standard --global
 
       - name: detect-secrets
         uses: secret-scanner/action@0.0.2
@@ -57,11 +57,10 @@ jobs:
       - name: standard
         run: standard
 
-      - name: Build jekyll site
+      - name: Build Jekyll Site
         uses: actions/jekyll-build-pages@v1
 
       - name: html5validator
-        # run: html5validator --config .dev_config/.html5validator.yaml
         uses: Cyb3r-Jak3/html5validator-action@master  # blocklint: pragma
         with:
           config: .dev_config/.html5validator.yaml
