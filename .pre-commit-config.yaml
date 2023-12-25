@@ -35,6 +35,16 @@ repos:
     hooks:
       - id: standard
 
+  # html5validator
+  - repo: local
+    hooks:
+      - id: html5validator
+        name: html5validator
+        entry: make html5validator
+        # entry: make html5validator --config .dev_config/.html5validator.yaml
+        language: system
+        types: [python]
+
   # pre-commit-hooks
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: 'v4.5.0'
