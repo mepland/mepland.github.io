@@ -57,7 +57,7 @@ jobs:
       - name: standard
         run: standard
 
-      - name: Build
+      - name: Build jekyll site
         uses: actions/jekyll-build-pages@v1
 
       - name: html5validator

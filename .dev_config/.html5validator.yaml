@@ -1,4 +1,4 @@
-root: ./_site
+root: _site
 vnu:
   - '--also-check-css'
   - '--also-check-svg'
@@ -10,3 +10,4 @@ ignore_re:
 blacklist:  # blocklint: pragma
   - 'bootstrap.min.css'
   - 'styles.min.css'
+  - 'styles.css'  # only needed for github actions build
