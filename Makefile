@@ -32,6 +32,9 @@ html5validator:
 	if [ ! -d "./_site" ]; then $(MAKE) gen-local; fi
 	html5validator --config .dev_config/.html5validator.yaml
 
+prettier:
+	prettier --ignore-path .dev_config/.prettierignore --write .
+
 # detect-secrets ~ pragma: allowlist
 # yamllint ~ yamllint
 # blocklint ~ blocklint: pragma

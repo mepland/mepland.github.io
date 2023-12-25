@@ -1,0 +1,5 @@
+**/*.md
+**/*.yml
+**/*.yaml
+**/*.min.js
+**/*.min.css
