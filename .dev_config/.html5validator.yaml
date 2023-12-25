@@ -1,0 +1,12 @@
+root: ./_site
+vnu:
+  - '--also-check-css'
+  - '--also-check-svg'
+ignore_re:
+  - 'Attribute "Element "nobr" not allowed'
+  - 'Element "nobr" not allowed'
+  - 'The "align" attribute on the "img" element is obsolete'
+  - '"color": Invalid RGB function'
+blacklist:
+  - 'bootstrap.min.css'
+  - 'styles.min.css'
