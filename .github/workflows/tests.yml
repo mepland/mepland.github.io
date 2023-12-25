@@ -64,3 +64,10 @@ jobs:
         uses: Cyb3r-Jak3/html5validator-action@master  # blocklint: pragma
         with:
           config: .dev_config/.html5validator.yaml
+
+      - name: prettier
+        id: prettier
+        uses: rutajdash/prettier-cli-action@v1.0.0
+        with:
+          ignore_path: .dev_config/.prettierignore
+          config_path: .dev_config/.prettierrc.yaml
