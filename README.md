@@ -2,7 +2,8 @@
 
 Adapted from [`cvless`](https://github.com/piazzai/cvless).
 
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat)](https://standardjs.com)
+[![Code Style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)](https://github.com/prettier/prettier)
 
 ## Usage
 
@@ -42,7 +43,7 @@ you can install them using the following guides from Docker:
 You can run the container without docker-compose using the following command on Mac/Linux:
 
 ```bash
-sudo docker run -p 4000:4000 -v $(pwd):/site bretfisher/jekyll-serve
+docker run -p 4000:4000 -v $(pwd):/site bretfisher/jekyll-serve
 ```
 
 To start the container with docker-compose simply run:
@@ -51,23 +52,35 @@ To start the container with docker-compose simply run:
 docker-compose up
 ```
 
+### [Running Docker without `sudo`](https://www.digitalocean.com/community/questions/how-to-fix-docker-got-permission-denied-while-trying-to-connect-to-the-docker-daemon-socket)
+You need to create the `docker` group, if it does not exist,
+and add your user to it:
+
+```bash
+sudo groupadd docker
+sudo usermod -aG docker ${USER}
+```
+
 ### Using the Makefile
 A [`Makefile`](Makefile) is provided for convenience,
-allowing you to run the docker container with `make local`
+allowing you to run the docker container with `make serve-local`,
+which serves the page to a local IP address,
+or `make generate-local` which just builds the `_site` directory,
 as well run CI and linting tools,
 e.g. `make markdownlint`, `make pre-commit`.
 
-#### Installing `standard`
+#### Installing `standard` and `prettier`
 To avoid setting up a `package.json` file,
-install `standard` globally with:
+install `standard` and `prettier` globally with:
 
 ```bash
-sudo npm install standard --global
+sudo npm install --global standard prettier
 ```
 
-#### Installing pre-commit
-You can also install [`pre-commit`](https://pre-commit.com) globally with:
+#### Installing `pre-commit` and `html5validator`
+You can install [`pre-commit`](https://pre-commit.com) and
+[`html5validator`](https://github.com/svenkreiss/html5validator) globally with:
 
 ```bash
-pip install pre-commit
+pip install pre-commit html5validator
 ```

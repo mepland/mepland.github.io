@@ -31,7 +31,7 @@ jobs:
           check-latest: true
 
       - name: Install Dependencies
-        run: sudo npm install standard --global
+        run: sudo npm install --global standard prettier
 
       - name: detect-secrets
         uses: secret-scanner/action@0.0.2
@@ -56,3 +56,15 @@ jobs:
 
       - name: standard
         run: standard
+
+      - name: Build Jekyll Site
+        uses: actions/jekyll-build-pages@v1
+
+      - name: html5validator
+        uses: Cyb3r-Jak3/html5validator-action@master  # blocklint: pragma
+        with:
+          config: .dev_config/.html5validator.yaml
+
+      - name: prettier
+        id: prettier
+        run: prettier --ignore-path .dev_config/.prettierignore --ignore-path .gitignore --config .dev_config/.prettierrc.yaml --check .  # yamllint disable-line rule:line-length

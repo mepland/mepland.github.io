@@ -2,7 +2,7 @@
   from {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
     filter: alpha(opacity=40);
-    opacity: .4;
+    opacity: 0.4;
     top: 0;
   }
 
@@ -16,7 +16,7 @@
   to {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
     filter: alpha(opacity=40);
-    opacity: .4;
-    top: 0
+    opacity: 0.4;
+    top: 0;
   }
 }
