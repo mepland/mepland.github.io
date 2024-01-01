@@ -32,6 +32,7 @@ plugins:
   - jekyll-gist
   - jekyll-paginate-v2
   - jekyll-sitemap
+  - jekyll-remote-include
 
 sass:
   sass_dir: _sass
