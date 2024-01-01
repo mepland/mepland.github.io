@@ -346,4 +346,7 @@ TODO
 
 TODO
 
+# Posts
+<!-- [Click here](/posts) to scroll posts from the most recent, otherwise see the archive below! -->
+
 {% include archive.html %}
