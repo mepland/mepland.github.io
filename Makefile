@@ -43,8 +43,8 @@ fmt_prettier:
 # standard ~ eslint
 # prettier ~ <!-- prettier-ignore -->
 find_noqa_comments:
-	@grep -rIn 'yamllint' $(shell git ls-files '*.yaml')
+	@grep -rIn 'yamllint' $(shell git ls-files '*.yaml' '*.yml')
 	@grep -rIn 'pragma\|blocklint:' $(shell git ls-files '*')
 	@grep -rIn 'markdownlint-' $(shell git ls-files '*.md')
-	@grep -rIn 'prettier-ignore' $(shell git ls-files '*.html')
 	@grep -rIn 'eslint' $(shell git ls-files '*.js')
+	@grep -rIn 'prettier-ignore' $(shell git ls-files '*.html' '*.scss' '*.css')
