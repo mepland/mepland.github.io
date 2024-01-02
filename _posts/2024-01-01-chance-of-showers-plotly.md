@@ -22,7 +22,13 @@ Using water reduces the pressure slightly under normal conditions,
 and abruptly ends over pressure events.
 
 <!-- markdownlint-disable-next-line -->
-{% remote_include <https://mepland.github.io/chance_of_showers/media/ana_outputs/mean_pressure_value_selected_data.html> %}
+<iframe
+src="https://mepland.github.io/chance_of_showers/media/ana_outputs/mean_pressure_value_selected_data.html"
+title="Unnormalized Time Series"
+width="100%"
+height="550"
+style="border: 0px">
+</iframe>
 
 ## Normalized values
 
@@ -31,4 +37,10 @@ we rescale the values to 0 and 1 between the steady state extrema.
 Any values that are outside the normalization range are capped.
 
 <!-- markdownlint-disable-next-line -->
-{% remote_include <https://mepland.github.io/chance_of_showers/media/ana_outputs/mean_pressure_value_normalized_selected_data.html> %}
+<iframe
+src="https://mepland.github.io/chance_of_showers/media/ana_outputs/mean_pressure_value_normalized_selected_data.html"
+title="Unnormalized Time Series"
+width="100%"
+height="550"
+style="border: 0px">
+</iframe>
