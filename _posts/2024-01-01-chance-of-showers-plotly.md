@@ -25,8 +25,6 @@ and abruptly ends over pressure events.
 <iframe
 src="https://mepland.github.io/chance_of_showers/media/ana_outputs/mean_pressure_value_selected_data.html"
 title="Unnormalized Time Series"
-width="100%"
-height="550"
 style="border: 0px">
 </iframe>
 
@@ -40,7 +38,5 @@ Any values that are outside the normalization range are capped.
 <iframe
 src="https://mepland.github.io/chance_of_showers/media/ana_outputs/mean_pressure_value_normalized_selected_data.html"
 title="Unnormalized Time Series"
-width="100%"
-height="550"
 style="border: 0px">
 </iframe>
