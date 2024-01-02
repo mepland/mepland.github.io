@@ -1,0 +1,2 @@
+# ignore plotly html files in github languages stats
+_includes/chance_of_showers/* linguist-documentation=true
