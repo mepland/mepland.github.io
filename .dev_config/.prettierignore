@@ -3,3 +3,4 @@
 **/*.yaml
 **/*.js
 **/*.min.css
+**/chance_of_showers/*.html
