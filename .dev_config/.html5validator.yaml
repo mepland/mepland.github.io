@@ -11,3 +11,4 @@ blacklist:  # blocklint: pragma
   - 'bootstrap.min.css'
   - 'styles.min.css'
   - 'style.css'  # only needed for github actions build
+  - 'chance-of-showers-plotly/index.html'
